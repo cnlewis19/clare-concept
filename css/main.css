@@ -113,21 +113,26 @@ header {
   display: block;
   margin: auto;
 }
-.mission {
+
+.new-site{
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   margin-top: 20px;
   margin-bottom: 0;
   font-family: 'Nunito', sans-serif;
-  font-size: 1.2em;
+  font-size: 2em;
   text-align: center;
   background-color: #c0fdfd;
+}
+.new-site span {
+  font-size: 2.3rem;
 }
 .hero-image {
   width: 100%;
 }
+
 .question {
   font-family: 'Nunito', sans-serif;
   text-align: center;
@@ -144,20 +149,39 @@ p {
 .contact {
   background-color: #c0fdfd;
   text-align: center;
+  margin: auto;
 }
 .email-cta {
   font-family: 'Nunito', sans-serif;
   font-size: 1.1em;
   padding-top: 10px;
+  text-align: center;
 }
 .email-address {
   font-size: 1.1em;
   padding-bottom: 10px;
+  text-align: center;
+  margin: auto;
 }
-
-
-
-
+.social-icons {
+  width: 95%;
+  margin: auto;
+}
+.contact li {
+  list-style: none;
+  display: inline;
+}
+#facebook {
+  height: 40px;
+  padding-right: 10px;
+}
+#github {
+  height: 40px;
+  padding-left: 10px;
+}
+.contact ul {
+  padding-bottom: 20px;
+}
 
 
 
@@ -257,7 +281,35 @@ p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 700px) and (orientation: landscape)  {
+@media only screen and (min-width: 700px) {
+    .new-site {
+      width: 75%;
+      margin: auto;
+      margin-top: 20px;
+    }
+    .explanation{
+      width: 80%;
+      margin: auto;
+    }
+    .contact {
+      width: 80%;
+      margin: auto;
+    }
+    .question {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    .email-cta {
+      font-size: 2rem;
+      padding-top: 30px;
+      margin-bottom: 30px;
+    }
+    .email-address {
+      font-size: 1.8rem;
+      margin-top: 15px;
+    }
 }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
